@@ -7,12 +7,20 @@
     font-family: 'Merriweather', serif;
 }
 .text-orange{
-    color: orange;
+    color: #AC3B61;
 }
 .btn-book{
     background-image: linear-gradient(#E7717D, #C3073F);
     color: whitesmoke;
     border: none;
+}
+.team-event{
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    
+}
+.team-event:hover{
+    transform: scale(.9);
 }
 .fa-check-circle{
     color: palevioletred;
