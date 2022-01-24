@@ -35,13 +35,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#packages">Packages</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#booking-form">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#faq">FAQ</a>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +65,7 @@
                         <h5 class="fs-2"><span class="text-orange">We Create</span> You Celebrate</h5>
                         <small>Planning a wedding, Proposal, or Events in our busy city is not so easy, and it takes
                             skills (and time) to make it all look easy-going</small>
-                            <a href="#booking-form"><button class="btn px-4 btn-book rounded-pill">Book Now</button></a>
+                        <a href="#booking-form"><button class="btn px-4 btn-book rounded-pill">Book Now</button></a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -83,7 +83,7 @@
                         <h5 class="fs-2"><span class="text-orange">We Create</span> You Celebrate</h5>
                         <small>Planning a wedding, Proposal, or Events in our busy city is not so easy, and it takes
                             skills (and time) to make it all look easy-going</small>
-                            <a href="#booking-form"><button class="btn px-4 btn-book rounded-pill">Book Now</button></a>
+                        <a href="#booking-form"><button class="btn px-4 btn-book rounded-pill">Book Now</button></a>
                     </div>
                 </div>
             </div>
@@ -101,16 +101,11 @@
     </header>
 
     <main>
+
+        
         <!-- Our Packages -->
-        <section class="container mb-5">
+        <section class="container mb-5" id="packages">
             <h2 class="text-center m-5">Our Packages</h2>
-            <!-- Toast  -->
-            <div class="toast show">
-                <div class="toast-header">
-                    <strong class="me-auto">20% off on next booking</strong>
-                    <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
-                </div>
-            </div>
             <div class="mx-auto">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                     <div class="col">
@@ -195,7 +190,7 @@
         </section>
 
         <!-- FAQ  -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="faq">
             <h2 class="text-center my-5">Frequently Asked Questions</h2>
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col">
@@ -227,12 +222,7 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <p>Whilst this obviously depends on the size and nature of the event, we'd always advise you to start putting plans in place as early as possible. At certain times of year certain venues may need to be booked well in advance, as too with reputable suppliers and vendors. We advise handing over the reins to an event planner as soon as you're aware of an event to be planned. This gives us adequate time to factor in back up plans as well as leaving ample time to negotiate, plan and ensure everything's in place for your big day.</p>
                                 </div>
                             </div>
                         </div>
@@ -246,12 +236,8 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <p>We're aware that sometimes things happen which are outside of your control. In the event of needing a refund for a cancelled event, do discuss this with your event planner as early as possible, before extra services and products may have been ordered. We will discuss our policies with you before entering into contracts and then liaise with you in the unfortunate event of an event being canceled.</p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -265,12 +251,7 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <p>We are meticulous about keeping track of everything we need to spend money on. This is done by constant monitoring and updating spreadsheets, knowing where to prioritise spending and keeping aside a budget to cater for emergency contingencies</p>
                                 </div>
                             </div>
                         </div>
@@ -284,15 +265,22 @@
 
         </section>
 
+        <!-- Toast  -->
+        <div class="toast show my-5">
+            <div class="toast-header">
+                <strong class="me-auto">20% off on next booking</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+
         <!-- Booking Form  -->
         <section class="container my-5" id="booking-form">
             <h2 class="text-center mb-5">For Booking</h2>
             <form action="" class="shadow-lg mx-auto py-5">
                 <div class="row row-cols-lg-2 g-4 mx-auto">
                     <div class="col-lg-6 form-floating">
-                        <input type="text" class="form-control" id="name"
-                            placeholder="Enter Name" name="name">
-                            <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+                        <label for="name">Name</label>
                     </div>
                     <div class="col-lg-6 form-floating">
                         <input type="text" class="form-control" id="phone" placeholder="Enter Phone" name="phone">
@@ -303,7 +291,8 @@
                         <label for="message">Messages</label>
                     </div>
                     <div class="checkbox col-lg-12">
-                        <label><input type="checkbox" name="remember"> I agree that my submitted data is being collected and stored.</label>
+                        <label><input type="checkbox" name="remember"> I agree that my submitted data is being collected
+                            and stored.</label>
                     </div>
 
                 </div>
