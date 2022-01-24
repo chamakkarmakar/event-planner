@@ -13,5 +13,9 @@
     background-image: linear-gradient(#E7717D, #C3073F);
     color: whitesmoke;
     border: none;
-    border-radius: 18px;
+   
+    
+}
+.fa-check-circle{
+    color: palevioletred;
 }
