@@ -13,9 +13,11 @@
     background-image: linear-gradient(#E7717D, #C3073F);
     color: whitesmoke;
     border: none;
-   
-    
 }
 .fa-check-circle{
     color: palevioletred;
+}
+
+.wedding-plus{
+    padding: 40px 17px;
 }
